@@ -5,7 +5,7 @@ org 100h
 
 table:
     add bl,1
-    add al,2          ; change value for table answer will be stored at in Al
+    add al,2          ; change value for table, answer will be stored at in Al
     
     cmp bl,10
     jz exit
