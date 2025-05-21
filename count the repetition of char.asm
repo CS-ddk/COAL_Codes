@@ -9,7 +9,7 @@ next_char:
     cmp al, 0          
     je result
 
-    cmp al, 'l'        
+    cmp al, 'l'        ; Replace the char "l" to count another char
     jne skip           
 
     inc cx             
