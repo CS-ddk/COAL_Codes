@@ -23,7 +23,7 @@ doneName:
     mov ah, 09h
     int 21h
 
-    mov dx, offset msgHello
+    mov dx, offset msgprints
     mov ah, 09h
     int 21h
 
@@ -35,7 +35,7 @@ doneName:
 
 ret    
 
-msgName:     db 'Enter student name: $' 
-msgHello:    db 13,10, 'Student Name: $'  
+msgName:    db 'Enter student name: $' 
+msgprints:  db 13,10, 'Student Name: $'  
 newline     db 13,10, '$' 
 nameBuffer  db 20 dup('$')
