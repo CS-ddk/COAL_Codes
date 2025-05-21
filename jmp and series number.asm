@@ -1,3 +1,5 @@
+;1 1 2 3 6 7 14 15 30 31 62 63
+
 org 100h
 
 xor ax,ax
@@ -15,7 +17,7 @@ add ax,1
 
 mult:
 mul bx
-jmp addi                  ;1 1 2 3 6 7 14 15 30 31 62 63
+jmp addi                  
 
 
 ret
